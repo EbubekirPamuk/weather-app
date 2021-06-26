@@ -1,0 +1,49 @@
+* {
+  font-weight: lighter;
+}
+.app {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 25%;
+  padding: 2px 0px 70px 0px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  left: 36%;
+  top: -15px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 14px 0px rgba(47, 50, 50, 0.38);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(140, 140, 227, 0.5718487223991159) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.app-header {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.search {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(201, 148, 5, 0.829);
+  text-align: center;
+  padding: 10px 0 10px 0;
+  opacity: 0.7;
+  margin-top: 35px;
+}
+
+.city-name {
+  font-size: 35px;
+}
+
+.temp {
+  font-size: 50px;
+}
+
+.state-sky {
+  font-size: 25px;
+}
